@@ -1,0 +1,36 @@
+{
+  "run_dir": "C:\\dev\\gwhd-project\\outputs\\runs\\yolov8n_800_20261116_171137",
+  "smoke": false,
+  "selection_metric": "fitness de Ultralytics (0.1 mAP50 + 0.9 mAP50-95)",
+  "best_val_metrics": {
+    "map50_95": 0.4324762686116773,
+    "map50": 0.8179899028457168,
+    "map75": 0.39958650353086017,
+    "map_small": 0.12330318076903819,
+    "map_medium": 0.4339912807819004,
+    "map_large": 0.5457229257472377,
+    "ar_max": 0.5592948479205463,
+    "precision": 0.9454545454545454,
+    "recall": 0.6184481688392303,
+    "f1": 0.7477634344040828,
+    "score_threshold": 0.5,
+    "iou_threshold": 0.5,
+    "best_f1": 0.7980038470333454,
+    "best_f1_threshold": 0.325927734375,
+    "best_f1_precision": 0.8706997769167547,
+    "best_f1_recall": 0.7365114835505897,
+    "n_images": 984.0,
+    "n_gt": 40275.0,
+    "n_dets": 292860.0,
+    "max_dets": 300.0
+  },
+  "predict_args": {
+    "imgsz": 800,
+    "conf": 0.001,
+    "iou": 0.7,
+    "max_det": 300
+  },
+  "inference_ms_mean": 27.26922400002877,
+  "inference_ms_median": 28.648099999827537,
+  "inference_n_images": 100
+}

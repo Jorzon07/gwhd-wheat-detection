@@ -1,0 +1,4 @@
+competition_split,n_images,n_boxes,mean_boxes
+test,1381,67407,48.81
+train,3655,163603,44.76
+val,1476,44347,30.05

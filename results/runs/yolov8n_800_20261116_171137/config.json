@@ -1,0 +1,25 @@
+{
+  "split_dir": "data\\splits\\location_seed42",
+  "phase3": {
+    "images_dir": "data/raw/gwhd_2021/images"
+  },
+  "model": "yolov8n",
+  "ultralytics": "8.4.215",
+  "train_args": {
+    "data": "C:\\dev\\gwhd-project\\data\\yolo\\gwhd.yaml",
+    "imgsz": "800",
+    "batch": "16",
+    "patience": "10",
+    "workers": "4",
+    "seed": "42",
+    "project": "C:\\dev\\gwhd-project\\outputs\\runs",
+    "name": "yolov8n_800_20261116_171137",
+    "exist_ok": "False",
+    "plots": "False",
+    "flipud": "0.5",
+    "fliplr": "0.5",
+    "degrees": "0.0",
+    "epochs": "50"
+  },
+  "wall_time_s": 2023.4
+}

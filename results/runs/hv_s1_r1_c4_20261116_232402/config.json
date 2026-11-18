@@ -1,0 +1,75 @@
+{
+  "train": {
+    "seed": 0,
+    "arch": "rtdetr",
+    "variant": "v1",
+    "pretrained": true,
+    "trainable_backbone_layers": 3,
+    "image_size": 800,
+    "batch_size": 4,
+    "accum_steps": 1,
+    "epochs": 9,
+    "optimizer": "adamw",
+    "lr": 0.000196569,
+    "momentum": 0.9,
+    "weight_decay": 0.0001,
+    "warmup_steps": 300,
+    "min_lr_ratio": 0.01,
+    "grad_clip": 1.0,
+    "backbone_lr_mult": 1.0,
+    "amp": true,
+    "detections_per_img": 300,
+    "score_thresh_eval": 0.001,
+    "nms_thresh": 0.5,
+    "selection_metric": "map50_95",
+    "patience": 4,
+    "eval_every": 1,
+    "eval_batch_size": 4,
+    "log_every": 20,
+    "train_images": null,
+    "runs_dir": "outputs/runs",
+    "smoke": false
+  },
+  "phase3": {
+    "seed": 0,
+    "split_dir": "data/splits/location_seed42",
+    "images_dir": "data/raw/gwhd_2021/images",
+    "image_size": 1024,
+    "aug": {
+      "hflip": 0.5,
+      "vflip": 0.5,
+      "rot90": 0.5,
+      "brightness": 0.2,
+      "contrast": 0.2,
+      "scale_crop_p": 0.5,
+      "crop_min_frac": 0.6,
+      "min_visibility": 0.5,
+      "min_box_side": 2.0
+    },
+    "loader": {
+      "batch_size": 4,
+      "num_workers": 4,
+      "pin_memory": true,
+      "cache_items": 0
+    }
+  },
+  "split_dir": "C:\\dev\\gwhd-project\\data\\splits\\location_seed42",
+  "split_sha256": {
+    "train": "48b49448b362b7fe28b7a27c4cb1cf7fd05441e4a0e92f7c4957efc20a0443a0",
+    "validation": "f4e5db17804a70101102ab09d37443f063277a52fe06300d61d05d5578584984"
+  },
+  "environment": {
+    "python": "3.12.10",
+    "torch": "2.15.0+cu132",
+    "torchvision": "0.29.2+cu132",
+    "cuda": "13.2",
+    "gpu": "NVIDIA GeForce RTX 4050 Laptop GPU"
+  },
+  "parameters": {
+    "total": 20073172,
+    "trainable": 20073172
+  },
+  "n_train_images": 4532,
+  "n_val_images": 984,
+  "started": "2026-11-16T23:24:07"
+}

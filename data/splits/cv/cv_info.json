@@ -1,0 +1,218 @@
+[
+  {
+    "variant": "random",
+    "fold": 0,
+    "dir": "data/splits/cv/random_k3_f0",
+    "n_train": 3677,
+    "n_val": 1839,
+    "val_locations": [
+      "Baima",
+      "Brookstead",
+      "Gréoux",
+      "KSU",
+      "Kyoto",
+      "Maricopa,AZ",
+      "McAllister",
+      "NARO-Tsukuba",
+      "NMBU",
+      "Rothamsted",
+      "Toulouse",
+      "Usask",
+      "VLB",
+      "VSC"
+    ],
+    "val_countries": [
+      "Australia",
+      "China",
+      "France",
+      "Japan",
+      "Norway",
+      "Switzerland",
+      "UK",
+      "US"
+    ],
+    "locations_in_both": [
+      "Baima",
+      "Brookstead",
+      "Gréoux",
+      "KSU",
+      "Kyoto",
+      "Maricopa,AZ",
+      "McAllister",
+      "NARO-Tsukuba",
+      "NMBU",
+      "Rothamsted",
+      "Toulouse",
+      "Usask",
+      "VLB",
+      "VSC"
+    ],
+    "val_boxes": 77511
+  },
+  {
+    "variant": "random",
+    "fold": 1,
+    "dir": "data/splits/cv/random_k3_f1",
+    "n_train": 3677,
+    "n_val": 1839,
+    "val_locations": [
+      "Baima",
+      "Brookstead",
+      "Gréoux",
+      "KSU",
+      "Kyoto",
+      "Maricopa,AZ",
+      "McAllister",
+      "NARO-Tsukuba",
+      "NMBU",
+      "Rothamsted",
+      "Toulouse",
+      "Usask",
+      "VLB",
+      "VSC"
+    ],
+    "val_countries": [
+      "Australia",
+      "China",
+      "France",
+      "Japan",
+      "Norway",
+      "Switzerland",
+      "UK",
+      "US"
+    ],
+    "locations_in_both": [
+      "Baima",
+      "Brookstead",
+      "Gréoux",
+      "KSU",
+      "Kyoto",
+      "Maricopa,AZ",
+      "McAllister",
+      "NARO-Tsukuba",
+      "NMBU",
+      "Rothamsted",
+      "Toulouse",
+      "Usask",
+      "VLB",
+      "VSC"
+    ],
+    "val_boxes": 78269
+  },
+  {
+    "variant": "random",
+    "fold": 2,
+    "dir": "data/splits/cv/random_k3_f2",
+    "n_train": 3678,
+    "n_val": 1838,
+    "val_locations": [
+      "Baima",
+      "Brookstead",
+      "Gréoux",
+      "KSU",
+      "Kyoto",
+      "Maricopa,AZ",
+      "McAllister",
+      "NARO-Tsukuba",
+      "NMBU",
+      "Rothamsted",
+      "Toulouse",
+      "Usask",
+      "VLB",
+      "VSC"
+    ],
+    "val_countries": [
+      "Australia",
+      "China",
+      "France",
+      "Japan",
+      "Norway",
+      "Switzerland",
+      "UK",
+      "US"
+    ],
+    "locations_in_both": [
+      "Baima",
+      "Brookstead",
+      "Gréoux",
+      "KSU",
+      "Kyoto",
+      "Maricopa,AZ",
+      "McAllister",
+      "NARO-Tsukuba",
+      "NMBU",
+      "Rothamsted",
+      "Toulouse",
+      "Usask",
+      "VLB",
+      "VSC"
+    ],
+    "val_boxes": 77623
+  },
+  {
+    "variant": "grouped",
+    "fold": 0,
+    "dir": "data/splits/cv/grouped_k3_f0",
+    "n_train": 3666,
+    "n_val": 1850,
+    "val_locations": [
+      "Brookstead",
+      "Gréoux",
+      "KSU",
+      "Toulouse"
+    ],
+    "val_countries": [
+      "Australia",
+      "France",
+      "US"
+    ],
+    "locations_in_both": [],
+    "val_boxes": 78050
+  },
+  {
+    "variant": "grouped",
+    "fold": 1,
+    "dir": "data/splits/cv/grouped_k3_f1",
+    "n_train": 3669,
+    "n_val": 1847,
+    "val_locations": [
+      "Baima",
+      "McAllister",
+      "NARO-Tsukuba",
+      "Rothamsted",
+      "VSC"
+    ],
+    "val_countries": [
+      "Australia",
+      "China",
+      "France",
+      "Japan",
+      "UK"
+    ],
+    "locations_in_both": [],
+    "val_boxes": 70692
+  },
+  {
+    "variant": "grouped",
+    "fold": 2,
+    "dir": "data/splits/cv/grouped_k3_f2",
+    "n_train": 3697,
+    "n_val": 1819,
+    "val_locations": [
+      "Kyoto",
+      "Maricopa,AZ",
+      "NMBU",
+      "Usask",
+      "VLB"
+    ],
+    "val_countries": [
+      "France",
+      "Japan",
+      "Norway",
+      "Switzerland",
+      "US"
+    ],
+    "locations_in_both": [],
+    "val_boxes": 84661
+  }
+]

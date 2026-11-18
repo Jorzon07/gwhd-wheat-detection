@@ -1,0 +1,47 @@
+{
+  "run_dir": "C:\\dev\\gwhd-project\\outputs\\runs\\hv_s0_r0_c1_20261117_012446",
+  "smoke": false,
+  "epochs_completed": 9,
+  "stopped_early": false,
+  "selection_metric": "map50_95",
+  "best_epoch": 5,
+  "best_value": 0.40952779716482823,
+  "best_val_metrics": {
+    "map50_95": 0.40952779716482823,
+    "map50": 0.8030599967089025,
+    "map75": 0.3600068005087096,
+    "map_small": 0.11716253571786422,
+    "map_medium": 0.4050032524170356,
+    "map_large": 0.5358918556636446,
+    "ar_max": 0.5475779019242707,
+    "precision": 0.843882460762974,
+    "recall": 0.7315952824332712,
+    "f1": 0.78373741538216,
+    "score_threshold": 0.5,
+    "iou_threshold": 0.5,
+    "best_f1": 0.7837837837837837,
+    "best_f1_threshold": 0.5000860691070557,
+    "best_f1_precision": 0.8440230313099774,
+    "best_f1_recall": 0.7315704531346989,
+    "n_images": 984,
+    "n_gt": 40275,
+    "n_dets": 295200,
+    "max_dets": 300
+  },
+  "wall_time_s": 3618.3,
+  "peak_train_mem_gib": 2.64,
+  "parameters": {
+    "total": 20073172,
+    "trainable": 20073172
+  },
+  "environment": {
+    "python": "3.12.10",
+    "torch": "2.15.0+cu132",
+    "torchvision": "0.29.2+cu132",
+    "cuda": "13.2",
+    "gpu": "NVIDIA GeForce RTX 4050 Laptop GPU"
+  },
+  "inference_ms_mean": 29.295375001020147,
+  "inference_ms_median": 28.19910000107484,
+  "inference_n_images": 100
+}

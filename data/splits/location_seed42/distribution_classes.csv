@@ -1,0 +1,4 @@
+split,class,n_instances
+train,wheat_head,193128
+validation,wheat_head,40275
+test,wheat_head,41846

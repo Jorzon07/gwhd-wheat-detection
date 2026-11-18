@@ -1,0 +1,4 @@
+split,n_images,n_domains,n_locations,n_countries,largest_domain,largest_domain_share_pct,countries
+train,4532,21,9,6,ETHZ_1,16.5,France:1870; Japan:1054; Switzerland:747; UK:432; US:355; Australia:74
+validation,984,9,5,4,Inrae_1,17.9,France:336; US:248; China:220; Norway:180
+test,991,17,7,7,Usask_1,20.2,Australia:349; Mexico:204; Canada:200; Japan:120; France:58; Belgium:30; Sudan:30

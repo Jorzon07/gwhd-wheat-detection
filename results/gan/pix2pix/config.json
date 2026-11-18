@@ -1,0 +1,20 @@
+{
+  "config": "configs/data.yaml",
+  "out": "outputs/gan/pix2pix",
+  "minutes": 75.0,
+  "batch_size": 8,
+  "crop": 256,
+  "ngf": 64,
+  "num_downs": 7,
+  "lr": 0.0002,
+  "l1": 100.0,
+  "workers": 4,
+  "seed": 0,
+  "resume": false,
+  "no_amp": false,
+  "smoke": false,
+  "amp_bf16": true,
+  "n_train_images": 4532,
+  "params_G": 41828547,
+  "params_D": 2767681
+}

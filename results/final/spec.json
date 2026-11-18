@@ -1,0 +1,59 @@
+{
+  "reference": "rtdetr_tuned",
+  "models": {
+    "rtdetr_tuned": {
+      "kind": "torch",
+      "run": "outputs/runs/hv_s0_r0_c2_20261117_022523"
+    },
+    "rtdetr_default": {
+      "kind": "torch",
+      "run": "outputs/runs/baseline_20261116_120333"
+    },
+    "yolov8n": {
+      "kind": "yolo",
+      "run": "outputs/runs/yolov8n_800_20261116_171137"
+    },
+    "frcnn": {
+      "kind": "torch",
+      "run": "outputs/runs/baseline_v1_800_20261106_075151"
+    },
+    "retinanet": {
+      "kind": "torch",
+      "run": "outputs/runs/retinanet_v1_800_20261112_072116"
+    },
+    "detr": {
+      "kind": "torch",
+      "run": "outputs/runs/baseline_20261116_135752"
+    },
+    "fed_domain": {
+      "kind": "torch",
+      "run": "outputs/runs/fedavg_domain_20261117_141114"
+    },
+    "fed_iid": {
+      "kind": "torch",
+      "run": "outputs/runs/fedavg_iid_20261117_153722"
+    },
+    "fed_single": {
+      "kind": "torch",
+      "run": "outputs/runs/fedavg_single_20261117_165854"
+    },
+    "gan_aug": {
+      "kind": "torch",
+      "run": "outputs/runs/gan_aug_rtdetr_20261117_200502"
+    }
+  },
+  "ensembles": {
+    "e3": {
+      "members": [
+        "rtdetr_tuned",
+        "yolov8n",
+        "frcnn"
+      ],
+      "iou_thr": 0.65,
+      "skip_thr": 0.05,
+      "weights": null,
+      "conf_type": "avg",
+      "val_summary": "outputs/ensembles/e3/summary.json"
+    }
+  }
+}

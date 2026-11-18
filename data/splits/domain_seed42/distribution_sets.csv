@@ -1,0 +1,4 @@
+split,n_images,n_instances,mean_boxes,n_groups,pct_images,pct_instances,target_pct
+train,4550,192804,42.37,22,69.92,70.05,70.0
+validation,982,41366,42.12,14,15.09,15.03,15.0
+test,975,41079,42.13,11,14.98,14.92,15.0

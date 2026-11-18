@@ -1,0 +1,295 @@
+{
+  "trials": {
+    "s2_r0_c0": {
+      "key": "s2_r0_c0",
+      "cfg": {
+        "lr": 0.0001,
+        "backbone_lr_mult": 0.1,
+        "grad_clip": 0.1
+      },
+      "epochs": 1,
+      "value": 0.3879896020689134,
+      "run_dir": "C:\\dev\\gwhd-project\\outputs\\runs\\hv_s2_r0_c0_20261116_183512",
+      "returncode": 0,
+      "minutes": 7.2
+    },
+    "s2_r0_c1": {
+      "key": "s2_r0_c1",
+      "cfg": {
+        "lr": 0.00014240812707665238,
+        "backbone_lr_mult": 1.0,
+        "grad_clip": 0.1
+      },
+      "epochs": 1,
+      "value": 0.42053884948285764,
+      "run_dir": "C:\\dev\\gwhd-project\\outputs\\runs\\hv_s2_r0_c1_20261116_184222",
+      "returncode": 0,
+      "minutes": 6.9
+    },
+    "s2_r0_c2": {
+      "key": "s2_r0_c2",
+      "cfg": {
+        "lr": 4.044340681421709e-05,
+        "backbone_lr_mult": 0.03,
+        "grad_clip": 0.1
+      },
+      "epochs": 1,
+      "value": 0.3540217256342594,
+      "run_dir": "C:\\dev\\gwhd-project\\outputs\\runs\\hv_s2_r0_c2_20261116_184918",
+      "returncode": 0,
+      "minutes": 7.0
+    },
+    "s2_r0_c3": {
+      "key": "s2_r0_c3",
+      "cfg": {
+        "lr": 4.076133511351514e-05,
+        "backbone_lr_mult": 1.0,
+        "grad_clip": 1.0
+      },
+      "epochs": 1,
+      "value": 0.40261194079305657,
+      "run_dir": "C:\\dev\\gwhd-project\\outputs\\runs\\hv_s2_r0_c3_20261116_185615",
+      "returncode": 0,
+      "minutes": 6.9
+    },
+    "s2_r0_c4": {
+      "key": "s2_r0_c4",
+      "cfg": {
+        "lr": 0.00010388617984770532,
+        "backbone_lr_mult": 0.1,
+        "grad_clip": 0.1
+      },
+      "epochs": 1,
+      "value": 0.38735117594903873,
+      "run_dir": "C:\\dev\\gwhd-project\\outputs\\runs\\hv_s2_r0_c4_20261116_190312",
+      "returncode": 0,
+      "minutes": 6.9
+    },
+    "s2_r0_c5": {
+      "key": "s2_r0_c5",
+      "cfg": {
+        "lr": 0.00010445822335130815,
+        "backbone_lr_mult": 0.1,
+        "grad_clip": 10.0
+      },
+      "epochs": 1,
+      "value": 0.38826570431356666,
+      "run_dir": "C:\\dev\\gwhd-project\\outputs\\runs\\hv_s2_r0_c5_20261116_191008",
+      "returncode": 0,
+      "minutes": 7.0
+    },
+    "s2_r0_c6": {
+      "key": "s2_r0_c6",
+      "cfg": {
+        "lr": 0.00016154604499405187,
+        "backbone_lr_mult": 0.3,
+        "grad_clip": 10.0
+      },
+      "epochs": 1,
+      "value": 0.40705795520108246,
+      "run_dir": "C:\\dev\\gwhd-project\\outputs\\runs\\hv_s2_r0_c6_20261116_191708",
+      "returncode": 0,
+      "minutes": 6.9
+    },
+    "s2_r0_c7": {
+      "key": "s2_r0_c7",
+      "cfg": {
+        "lr": 3.6275830781832164e-05,
+        "backbone_lr_mult": 0.1,
+        "grad_clip": 10.0
+      },
+      "epochs": 1,
+      "value": 0.3568590999833264,
+      "run_dir": "C:\\dev\\gwhd-project\\outputs\\runs\\hv_s2_r0_c7_20261116_192405",
+      "returncode": 0,
+      "minutes": 7.0
+    },
+    "s2_r0_c8": {
+      "key": "s2_r0_c8",
+      "cfg": {
+        "lr": 0.00027534231739544574,
+        "backbone_lr_mult": 0.3,
+        "grad_clip": 1.0
+      },
+      "epochs": 1,
+      "value": 0.4194043779995898,
+      "run_dir": "C:\\dev\\gwhd-project\\outputs\\runs\\hv_s2_r0_c8_20261116_193103",
+      "returncode": 0,
+      "minutes": 6.9
+    },
+    "s2_r1_c1": {
+      "key": "s2_r1_c1",
+      "cfg": {
+        "lr": 0.00014240812707665238,
+        "backbone_lr_mult": 1.0,
+        "grad_clip": 0.1
+      },
+      "epochs": 3,
+      "value": 0.43490387298097133,
+      "run_dir": "C:\\dev\\gwhd-project\\outputs\\runs\\hv_s2_r1_c1_20261116_193759",
+      "returncode": 0,
+      "minutes": 20.3
+    },
+    "s2_r1_c8": {
+      "key": "s2_r1_c8",
+      "cfg": {
+        "lr": 0.00027534231739544574,
+        "backbone_lr_mult": 0.3,
+        "grad_clip": 1.0
+      },
+      "epochs": 3,
+      "value": 0.4314452931997578,
+      "run_dir": "C:\\dev\\gwhd-project\\outputs\\runs\\hv_s2_r1_c8_20261116_195817",
+      "returncode": 0,
+      "minutes": 22.8
+    },
+    "s2_r1_c6": {
+      "key": "s2_r1_c6",
+      "cfg": {
+        "lr": 0.00016154604499405187,
+        "backbone_lr_mult": 0.3,
+        "grad_clip": 10.0
+      },
+      "epochs": 3,
+      "value": 0.4321580051709277,
+      "run_dir": "C:\\dev\\gwhd-project\\outputs\\runs\\hv_s2_r1_c6_20261116_202104",
+      "returncode": 0,
+      "minutes": 20.3
+    },
+    "s2_r2_c1": {
+      "key": "s2_r2_c1",
+      "cfg": {
+        "lr": 0.00014240812707665238,
+        "backbone_lr_mult": 1.0,
+        "grad_clip": 0.1
+      },
+      "epochs": 9,
+      "value": 0.4645635220783388,
+      "run_dir": "C:\\dev\\gwhd-project\\outputs\\runs\\hv_s2_r2_c1_20261116_204125",
+      "returncode": 0,
+      "minutes": 61.0
+    },
+    "s1_r0_c0": {
+      "key": "s1_r0_c0",
+      "cfg": {
+        "lr": 0.00030062347212943025,
+        "backbone_lr_mult": 1.0,
+        "grad_clip": 1.0
+      },
+      "epochs": 3,
+      "value": 0.43645353706864215,
+      "run_dir": "C:\\dev\\gwhd-project\\outputs\\runs\\hv_s1_r0_c0_20261116_214223",
+      "returncode": 0,
+      "minutes": 20.4
+    },
+    "s1_r0_c1": {
+      "key": "s1_r0_c1",
+      "cfg": {
+        "lr": 0.0002388326987727213,
+        "backbone_lr_mult": 0.03,
+        "grad_clip": 10.0
+      },
+      "epochs": 3,
+      "value": 0.41686249581435647,
+      "run_dir": "C:\\dev\\gwhd-project\\outputs\\runs\\hv_s1_r0_c1_20261116_220244",
+      "returncode": 0,
+      "minutes": 20.3
+    },
+    "s1_r0_c2": {
+      "key": "s1_r0_c2",
+      "cfg": {
+        "lr": 3.491883283327641e-05,
+        "backbone_lr_mult": 0.03,
+        "grad_clip": 0.1
+      },
+      "epochs": 3,
+      "value": 0.37668452582723777,
+      "run_dir": "C:\\dev\\gwhd-project\\outputs\\runs\\hv_s1_r0_c2_20261116_222301",
+      "returncode": 0,
+      "minutes": 20.4
+    },
+    "s1_r0_c3": {
+      "key": "s1_r0_c3",
+      "cfg": {
+        "lr": 0.00023086692224727189,
+        "backbone_lr_mult": 0.1,
+        "grad_clip": 0.1
+      },
+      "epochs": 3,
+      "value": 0.42070037131516924,
+      "run_dir": "C:\\dev\\gwhd-project\\outputs\\runs\\hv_s1_r0_c3_20261116_224322",
+      "returncode": 0,
+      "minutes": 20.4
+    },
+    "s1_r0_c4": {
+      "key": "s1_r0_c4",
+      "cfg": {
+        "lr": 0.0001965691012498644,
+        "backbone_lr_mult": 1.0,
+        "grad_clip": 1.0
+      },
+      "epochs": 3,
+      "value": 0.4414842224544648,
+      "run_dir": "C:\\dev\\gwhd-project\\outputs\\runs\\hv_s1_r0_c4_20261116_230344",
+      "returncode": 0,
+      "minutes": 20.3
+    },
+    "s1_r1_c4": {
+      "key": "s1_r1_c4",
+      "cfg": {
+        "lr": 0.0001965691012498644,
+        "backbone_lr_mult": 1.0,
+        "grad_clip": 1.0
+      },
+      "epochs": 9,
+      "value": 0.45830462647183656,
+      "run_dir": "C:\\dev\\gwhd-project\\outputs\\runs\\hv_s1_r1_c4_20261116_232402",
+      "returncode": 0,
+      "minutes": 60.3
+    },
+    "s0_r0_c0": {
+      "key": "s0_r0_c0",
+      "cfg": {
+        "lr": 0.00015619392215324358,
+        "backbone_lr_mult": 0.3,
+        "grad_clip": 0.1
+      },
+      "epochs": 9,
+      "value": 0.4667617246106525,
+      "run_dir": "C:\\dev\\gwhd-project\\outputs\\runs\\hv_s0_r0_c0_20261117_002420",
+      "returncode": 0,
+      "minutes": 60.4
+    },
+    "s0_r0_c1": {
+      "key": "s0_r0_c1",
+      "cfg": {
+        "lr": 3.335907186685951e-05,
+        "backbone_lr_mult": 0.03,
+        "grad_clip": 0.1
+      },
+      "epochs": 9,
+      "value": 0.40952779716482823,
+      "run_dir": "C:\\dev\\gwhd-project\\outputs\\runs\\hv_s0_r0_c1_20261117_012446",
+      "returncode": 0,
+      "minutes": 60.6
+    },
+    "s0_r0_c2": {
+      "key": "s0_r0_c2",
+      "cfg": {
+        "lr": 0.00024660418931748035,
+        "backbone_lr_mult": 0.3,
+        "grad_clip": 10.0
+      },
+      "epochs": 9,
+      "value": 0.46748274639766185,
+      "run_dir": "C:\\dev\\gwhd-project\\outputs\\runs\\hv_s0_r0_c2_20261117_022523",
+      "returncode": 0,
+      "minutes": 60.3
+    }
+  },
+  "plan_id": [
+    9,
+    3,
+    0
+  ]
+}

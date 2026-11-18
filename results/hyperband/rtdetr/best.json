@@ -1,0 +1,13 @@
+{
+  "key": "s0_r0_c2",
+  "cfg": {
+    "lr": 0.00024660418931748035,
+    "backbone_lr_mult": 0.3,
+    "grad_clip": 10.0
+  },
+  "epochs": 9,
+  "value": 0.46748274639766185,
+  "run_dir": "C:\\dev\\gwhd-project\\outputs\\runs\\hv_s0_r0_c2_20261117_022523",
+  "returncode": 0,
+  "minutes": 60.3
+}

@@ -1,0 +1,44 @@
+{
+  "run_dir": "C:\\dev\\gwhd-project\\outputs\\ensembles\\e4",
+  "smoke": false,
+  "selection_metric": "map50_95 (iou_thr elegido en validaci\u00f3n)",
+  "best_val_metrics": {
+    "map50_95": 0.459199129146661,
+    "map50": 0.8559442883277577,
+    "map75": 0.43187539392605934,
+    "map_small": 0.15408847085591726,
+    "map_medium": 0.46651068138919094,
+    "map_large": 0.5582500826568958,
+    "ar_max": 0.5729509621353197,
+    "precision": 0.9599221932689838,
+    "recall": 0.6494103041589075,
+    "f1": 0.7747104647374189,
+    "score_threshold": 0.5,
+    "iou_threshold": 0.5,
+    "best_f1": 0.8280681474865031,
+    "best_f1_threshold": 0.3017086088657379,
+    "best_f1_precision": 0.8791208791208791,
+    "best_f1_recall": 0.7826194909993792,
+    "n_images": 984,
+    "n_gt": 40275,
+    "n_dets": 242912,
+    "max_dets": 300
+  },
+  "ensemble": {
+    "members": {
+      "tuned": "C:\\dev\\gwhd-project\\outputs\\runs\\hv_s0_r0_c2_20261117_022523",
+      "yolo": "C:\\dev\\gwhd-project\\outputs\\runs\\yolov8n_800_20261116_171137",
+      "frcnn": "C:\\dev\\gwhd-project\\outputs\\runs\\baseline_v1_800_20261106_075151",
+      "retina": "C:\\dev\\gwhd-project\\outputs\\runs\\retinanet_v1_800_20261112_072116"
+    },
+    "method": "WBF",
+    "iou_thr": 0.65,
+    "iou_thr_grid": [
+      0.55,
+      0.65
+    ],
+    "skip_box_thr": 0.05,
+    "weights": null,
+    "conf_type": "avg"
+  }
+}

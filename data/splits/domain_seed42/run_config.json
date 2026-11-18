@@ -1,0 +1,69 @@
+{
+  "date": "2026-10-31T10:49:05",
+  "seed": 42,
+  "group_key": "domain",
+  "targets": {
+    "train": 0.7,
+    "validation": 0.15,
+    "test": 0.15
+  },
+  "audit_run": "20261030_144143",
+  "phase2_config": {
+    "seed": 42,
+    "group_key": "domain",
+    "targets": {
+      "train": 0.7,
+      "validation": 0.15,
+      "test": 0.15
+    },
+    "audit_run": null,
+    "min_box_side_px": 2,
+    "solver_time_limit_s": 60,
+    "tolerance_pp": 0.1,
+    "output_dir": "data/splits"
+  },
+  "solver": {
+    "solver_status": 0,
+    "solver_message": "Optimization terminated successfully. (HiGHS Status 7: Optimal)",
+    "tolerance_requested_pp": 0.1,
+    "tolerance_used_pp": 0.1,
+    "max_dev_images": 0.000914399877055494,
+    "max_dev_boxes": 0.000756950978931803
+  },
+  "python": "3.12.10 (tags/v3.12.10:0cc8128, Apr  8 2025, 12:21:36) [MSC v.1943 64 bit (AMD64)]",
+  "platform": "Windows-11-10.0.26300-SP0",
+  "libraries": {
+    "numpy": "2.5.4",
+    "pandas": "3.1.0",
+    "scipy": "1.18.1",
+    "matplotlib": "3.11.2",
+    "pyyaml": "6.0.3"
+  },
+  "input_csv_sha256": {
+    "competition_train.csv": "1af1d8e386643afe8cd1b41d89ca2634d3212908bdbe58a9d7cd5b32e4048176",
+    "competition_val.csv": "1e7ed76fdf67c4f01de1b3ac30ddeddb62577c580c3b0f882101b99e4b24ff2d",
+    "competition_test.csv": "8c801e485a34ccf2b9ae2e05bc3bcb2e2043a4df572921d4bf35e1de2b273baa",
+    "metadata_dataset.csv": "1fb0a498a4a2d3fff2424b65ecbc41f0ca10d5fc26137b09ffc42c8f3f92d49a"
+  },
+  "output_csv_sha256": {
+    "annotations_clean.csv": "328cbe32bae6740f9c9ce06dc85fabe82d5a38b50f2241f0ed1ae882dc0326a9",
+    "box_changes.csv": "10c11f165b0593589dade1a63d4959ecd0ea964cf6bd2b429b461936ebe1e2df",
+    "distribution_box_sizes.csv": "40ff82cd1f9d54766d5148e54fef3515f663197d1e667bd62dd67dc6384fd6cb",
+    "distribution_boxes_per_image.csv": "a92fafc3094520c55b7604395eacdaef45913795eb18ce0da4d4830856c69a0d",
+    "distribution_classes.csv": "684e8b3062829318242709dbe84c3e48d87fbf7e5d4c4f2fd1a7e8c244a02de3",
+    "distribution_metadata.csv": "c15685e5c9686190f96bbefeae572ccf9aaf284979d4ff58eeab799492c2b804",
+    "distribution_sets.csv": "f772b7541f6fc1a7f22abb84d49d0eecd76de6a60dc13f75c16000f37282a04e",
+    "group_assignment.csv": "e0904753e2059e6606be594b0d099ec635b35b6ac3df4205c2b4bc06acd4a12b",
+    "locations_split_across_sets.csv": "28fe60372c3d912a14c305b7d198e44861f4868e22f8f1d99d22be5c5f1cdc89",
+    "near_duplicate_links.csv": "854bd46fc78299a7f0902e2699b619e9efcf2ab19ce863fd08590bf4aff6095b",
+    "quarantine.csv": "396b921d34eda1bfa0b5e759c63a94d02745eb77b33326dbafa95699dce04001",
+    "test.csv": "b77d333b2051cc504d5fba43a191910f78b1768a815357ece53df526ae05fbfe",
+    "train.csv": "04428c610816b5ed847cee58e2908117138d086124139602a721efa26adf32f3",
+    "validation.csv": "0ce96dc2225740376027ea660d2cbb09cceb2c89dd335b873950050625e40e36"
+  },
+  "counts": {
+    "images_clean": 6507,
+    "quarantine_rows": 8,
+    "box_events": 22
+  }
+}

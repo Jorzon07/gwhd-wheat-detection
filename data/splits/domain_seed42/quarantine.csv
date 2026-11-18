@@ -1,0 +1,9 @@
+image_name,reason,detail
+1961bcf453d5b2206c428c1c14fe55d1f26f3c655db0a2b6a83094476e8edb5b.png,repeated_name_conflicting_rows,"2 filas; dominios=['Arvalis_10', 'Arvalis_12']"
+d88963636d49127bda0597ef73f1703e92d6f111caefc44902d5932b8cd3fa94.png,repeated_name_conflicting_rows,"2 filas; dominios=['Arvalis_10', 'Arvalis_12']"
+da9846512ff19b8cd7278c8c973f75d36de8c4eb4e593b8285f6821aae1f4203.png,repeated_name_conflicting_rows,"2 filas; dominios=['CIMMYT_1', 'CIMMYT_3']"
+094dcc9098204e6f751504515f3b0a7b5f5ad500a8bd2ec10124ed3d4fdbb6ed.png,orphan_file_no_annotation,sin fila en los CSV
+8cc5870f73527da07937acc806002e1272e6200095c656ca326a680a90fab507.png,orphan_file_no_annotation,sin fila en los CSV
+b588e1b55fbf8c4c6af08886013c0c36b70dd617fb1a5070829295a5c3ab31a8.png,orphan_file_no_annotation,sin fila en los CSV
+12906c1e75f9d4742f697961678cc4db0d172389dbfec48fc8fd0d2e49dddbc0.png,exact_duplicate_conflicting_labels,"md5=a11356ea; cajas por copia=[0, 1]"
+d747d8ff8dda97f935792d36fd8d6cb94f7b72a0e402b6a2419c3974db5f0e58.png,exact_duplicate_conflicting_labels,"md5=a11356ea; cajas por copia=[0, 1]"

@@ -1,0 +1,62 @@
+{
+  "date": "2026-10-30T14:42:12",
+  "python": "3.12.10 (tags/v3.12.10:0cc8128, Apr  8 2025, 12:21:36) [MSC v.1943 64 bit (AMD64)]",
+  "platform": "Windows-11-10.0.26300-SP0",
+  "libraries": {
+    "numpy": "2.5.4",
+    "pandas": "3.1.0",
+    "pillow": "13.0.0",
+    "imagehash": "4.3.2",
+    "matplotlib": "3.11.2",
+    "pyyaml": "6.0.3",
+    "requests": "2.34.2",
+    "tqdm": "4.70.1"
+  },
+  "config": {
+    "paths": {
+      "raw_dir": "data/raw",
+      "zip_path": "data/raw/gwhd_2021.zip",
+      "extract_dir": "data/raw/gwhd_2021",
+      "processed_dir": "data/processed",
+      "outputs_dir": "outputs",
+      "images_dir": null
+    },
+    "dataset": {
+      "name": "GWHD_2021",
+      "zenodo_record": "https://zenodo.org/records/5092309",
+      "zenodo_url": "https://zenodo.org/records/5092309/files/gwhd_2021.zip?download=1",
+      "md5": "22b4b542c9ae7e056d7fcdeae9ecaed5",
+      "license": "CC-BY-4.0",
+      "image_ext": ".png",
+      "expected_image_size": [
+        1024,
+        1024
+      ]
+    },
+    "audit": {
+      "seed": 42,
+      "num_workers": 8,
+      "phash_hamming_threshold": 4,
+      "n_sample_images": 12,
+      "tiny_box_min_side_px": 2
+    }
+  },
+  "csv_sources": {
+    "train": {
+      "path": "C:\\dev\\gwhd-project\\data\\raw\\gwhd_2021\\competition_train.csv",
+      "rows": 3657,
+      "extra_columns": []
+    },
+    "val": {
+      "path": "C:\\dev\\gwhd-project\\data\\raw\\gwhd_2021\\competition_val.csv",
+      "rows": 1476,
+      "extra_columns": []
+    },
+    "test": {
+      "path": "C:\\dev\\gwhd-project\\data\\raw\\gwhd_2021\\competition_test.csv",
+      "rows": 1382,
+      "extra_columns": []
+    }
+  },
+  "limit": null
+}

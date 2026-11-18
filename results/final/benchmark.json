@@ -1,0 +1,100 @@
+{
+  "results": [
+    {
+      "model": "detr",
+      "params_M": 41.6,
+      "median_ms": 59.93,
+      "mean_ms": 58.28,
+      "p95_ms": 66.7,
+      "min_ms": 47.11,
+      "fps_median": 16.7,
+      "peak_gpu_mib": 347.0,
+      "median_por_barrido": [
+        59.5,
+        60.4,
+        59.0
+      ],
+      "n_medidas": 345,
+      "variacion_barridos_pct": 2.3
+    },
+    {
+      "model": "retinanet",
+      "params_M": 32.2,
+      "median_ms": 60.18,
+      "mean_ms": 59.85,
+      "p95_ms": 63.95,
+      "min_ms": 51.62,
+      "fps_median": 16.6,
+      "peak_gpu_mib": 295.0,
+      "median_por_barrido": [
+        59.8,
+        60.2,
+        60.3
+      ],
+      "n_medidas": 345,
+      "variacion_barridos_pct": 0.9
+    },
+    {
+      "model": "frcnn",
+      "params_M": 41.3,
+      "median_ms": 64.94,
+      "mean_ms": 63.97,
+      "p95_ms": 67.16,
+      "min_ms": 55.72,
+      "fps_median": 15.4,
+      "peak_gpu_mib": 496.0,
+      "median_por_barrido": [
+        62.1,
+        65.4,
+        65.3
+      ],
+      "n_medidas": 345,
+      "variacion_barridos_pct": 5.1
+    },
+    {
+      "model": "yolov8n",
+      "params_M": 3.1,
+      "median_ms": 8.06,
+      "mean_ms": 8.42,
+      "p95_ms": 11.56,
+      "min_ms": 7.09,
+      "fps_median": 124.1,
+      "peak_gpu_mib": 28.0,
+      "median_por_barrido": [
+        8.1,
+        8.1,
+        8.0
+      ],
+      "n_medidas": 345,
+      "variacion_barridos_pct": 1.9
+    },
+    {
+      "model": "rtdetr_tuned",
+      "params_M": 20.1,
+      "median_ms": 40.03,
+      "mean_ms": 39.69,
+      "p95_ms": 52.92,
+      "min_ms": 25.81,
+      "fps_median": 25.0,
+      "peak_gpu_mib": 219.0,
+      "median_por_barrido": [
+        40.7,
+        43.3,
+        30.8
+      ],
+      "n_medidas": 345,
+      "variacion_barridos_pct": 31.2
+    },
+    {
+      "model": "e3 (estimado)",
+      "params_M": 64.5,
+      "median_ms": 116.22,
+      "fps_median": 8.6,
+      "nota": "suma de medianas de ['rtdetr_tuned', 'yolov8n', 'frcnn'] + WBF en CPU (3.2 ms)"
+    }
+  ],
+  "device": "NVIDIA GeForce RTX 4050 Laptop GPU",
+  "torch": "2.15.0+cu132",
+  "n_images": 100,
+  "sweeps": 3
+}

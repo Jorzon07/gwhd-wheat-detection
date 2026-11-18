@@ -1,0 +1,67 @@
+{
+  "rtdetr_tuned": {
+    "sha256": "725a5772b5ab06d3c885b64e34f2c3534c80913d471f52f671ed0a6cb8f15b23",
+    "run": "outputs/runs/hv_s0_r0_c2_20261117_022523",
+    "predicted": "2026-11-17T21:30:49"
+  },
+  "rtdetr_default": {
+    "sha256": "072501852f0c898f38117c978894c2052545761d202ff5340f5f6221924038af",
+    "run": "outputs/runs/baseline_20261116_120333",
+    "predicted": "2026-11-17T21:31:41"
+  },
+  "yolov8n": {
+    "sha256": "ffbd795e4dae3fc06f69dbbbd09ff7593182e750363d82448c3db87d15507f24",
+    "run": "outputs/runs/yolov8n_800_20261116_171137",
+    "predicted": "2026-11-17T21:32:46"
+  },
+  "frcnn": {
+    "sha256": "0f7c0302b0994f3687e6b97d5c9b003fcbf64eebea24f9ad1c1fbde983d19df9",
+    "run": "outputs/runs/baseline_v1_800_20261106_075151",
+    "predicted": "2026-11-17T21:33:46"
+  },
+  "retinanet": {
+    "sha256": "911ea49d07769e37d7f0a1d1a217cc3d5754dac502d181f6ad8676fe64f8b44e",
+    "run": "outputs/runs/retinanet_v1_800_20261112_072116",
+    "predicted": "2026-11-17T21:34:42"
+  },
+  "detr": {
+    "sha256": "5776679ad8fcf41574b7e0ca31cf4bef68b47d1eb1895b21f3fdb30f41198e17",
+    "run": "outputs/runs/baseline_20261116_135752",
+    "predicted": "2026-11-17T21:35:28"
+  },
+  "fed_domain": {
+    "sha256": "f7ed184d5387f4b478ad97841035a2d548f32a147d1babe5898bd2dcd416d423",
+    "run": "outputs/runs/fedavg_domain_20261117_141114",
+    "predicted": "2026-11-17T21:35:55"
+  },
+  "fed_iid": {
+    "sha256": "877f20f4b0905e7df4246fa305391ef0c88d4f2f27ca897a7280335d75a0e835",
+    "run": "outputs/runs/fedavg_iid_20261117_153722",
+    "predicted": "2026-11-17T21:36:22"
+  },
+  "fed_single": {
+    "sha256": "838bce2964de9ed2a162cd07e964419bfee0a8ec1b31f2908f95c85646982afc",
+    "run": "outputs/runs/fedavg_single_20261117_165854",
+    "predicted": "2026-11-17T21:36:49"
+  },
+  "gan_aug": {
+    "sha256": "c80d8b220cf1aad0e6eab000d1a82eca061c5df80eb9f2068e80090b53d7541e",
+    "run": "outputs/runs/gan_aug_rtdetr_20261117_200502",
+    "predicted": "2026-11-17T21:37:17"
+  },
+  "e3": {
+    "ensemble": {
+      "members": [
+        "rtdetr_tuned",
+        "yolov8n",
+        "frcnn"
+      ],
+      "iou_thr": 0.65,
+      "skip_thr": 0.05,
+      "weights": null,
+      "conf_type": "avg",
+      "val_summary": "outputs/ensembles/e3/summary.json"
+    },
+    "predicted": "2026-11-17T21:37:20"
+  }
+}

@@ -1,0 +1,44 @@
+{
+  "run_dir": "C:\\dev\\gwhd-project\\outputs\\ensembles\\e3_hi",
+  "smoke": false,
+  "selection_metric": "map50_95 (iou_thr elegido en validaci\u00f3n)",
+  "best_val_metrics": {
+    "map50_95": 0.46461901611137946,
+    "map50": 0.8534994857823212,
+    "map75": 0.446191099608402,
+    "map_small": 0.15397284212467902,
+    "map_medium": 0.46973054782905266,
+    "map_large": 0.5629732831418619,
+    "ar_max": 0.5871855990068282,
+    "precision": 0.9567789883830002,
+    "recall": 0.6584729981378026,
+    "f1": 0.780080302384069,
+    "score_threshold": 0.5,
+    "iou_threshold": 0.5,
+    "best_f1": 0.8259390237368055,
+    "best_f1_threshold": 0.3331579864025116,
+    "best_f1_precision": 0.8967914594059982,
+    "best_f1_recall": 0.7654624456859094,
+    "n_images": 984,
+    "n_gt": 40275,
+    "n_dets": 242185,
+    "max_dets": 300
+  },
+  "ensemble": {
+    "members": {
+      "tuned": "C:\\dev\\gwhd-project\\outputs\\runs\\hv_s0_r0_c2_20261117_022523",
+      "yolo": "C:\\dev\\gwhd-project\\outputs\\runs\\yolov8n_800_20261116_171137",
+      "frcnn": "C:\\dev\\gwhd-project\\outputs\\runs\\baseline_v1_800_20261106_075151"
+    },
+    "method": "WBF",
+    "iou_thr": 0.75,
+    "iou_thr_grid": [
+      0.7,
+      0.75,
+      0.8
+    ],
+    "skip_box_thr": 0.05,
+    "weights": null,
+    "conf_type": "avg"
+  }
+}

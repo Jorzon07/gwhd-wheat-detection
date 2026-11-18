@@ -1,0 +1,57 @@
+{
+  "run_dir": "C:\\dev\\gwhd-project\\outputs\\runs\\fedavg_domain_20261117_141114",
+  "smoke": false,
+  "epochs_completed": 9,
+  "stopped_early": false,
+  "selection_metric": "map50_95",
+  "best_epoch": 7,
+  "best_value": 0.4000077436052431,
+  "best_val_metrics": {
+    "map50_95": 0.4000077436052431,
+    "map50": 0.7798354083300195,
+    "map75": 0.3569963453512772,
+    "map_small": 0.09539778537326014,
+    "map_medium": 0.3995786240128268,
+    "map_large": 0.5367927743535112,
+    "ar_max": 0.5366828057107387,
+    "precision": 0.7998697634035163,
+    "recall": 0.731967721911856,
+    "f1": 0.7644137895269087,
+    "score_threshold": 0.5,
+    "iou_threshold": 0.5,
+    "best_f1": 0.7700651932804934,
+    "best_f1_threshold": 0.5484619140625,
+    "best_f1_precision": 0.8457470513087139,
+    "best_f1_recall": 0.7068156424581006,
+    "n_images": 984,
+    "n_gt": 40275,
+    "n_dets": 295192,
+    "max_dets": 300
+  },
+  "wall_time_s": 4806.3,
+  "federated": {
+    "partition": "domain",
+    "rounds": 9,
+    "local_epochs": 1,
+    "clients_per_round": 0,
+    "local_warmup": 10,
+    "aggregation": "FedAvg ponderado por n_im\u00e1genes",
+    "client_optimizer": "AdamW nuevo en cada cliente y ronda"
+  },
+  "comm_total_mb": 28995.2,
+  "params_floats": 20108244,
+  "parameters": {
+    "total": 20073172,
+    "trainable": 20073172
+  },
+  "environment": {
+    "python": "3.12.10",
+    "torch": "2.15.0+cu132",
+    "torchvision": "0.29.2+cu132",
+    "cuda": "13.2",
+    "gpu": "NVIDIA GeForce RTX 4050 Laptop GPU"
+  },
+  "inference_ms_mean": 33.059231999504846,
+  "inference_ms_median": 38.41575000114972,
+  "inference_n_images": 100
+}

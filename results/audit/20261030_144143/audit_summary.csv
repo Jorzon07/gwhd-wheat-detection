@@ -1,0 +1,20 @@
+metric,value
+run_id,20261030_144143
+partial_run,False
+filas_CSV_total,6515
+imagenes_unicas_auditadas,6512
+instancias_total,275357
+n_dominios,47
+CRITICO:filas_CSV_sin_archivo_de_imagen,0
+CRITICO:imagenes_ilegibles_o_corruptas,0
+CRITICO:imagenes_con_errores_de_parseo_de_cajas,0
+CRITICO:cajas_no_finitas_o_tamano_no_positivo,0
+CRITICO:image_name_en_varios_CSV_de_splits_distintos,0
+AVISO:cajas_fuera_de_limites (recortables en Fase 2),19
+AVISO:cajas_diminutas,3
+AVISO:imagenes_con_tamano_distinto_de_1024x1024,0
+AVISO:grupos_duplicados_exactos_md5,1
+AVISO:pares_casi_duplicados_pHash,3
+AVISO:pares_casi_duplicados_entre_splits_oficiales,0
+AVISO:imagenes_sin_espigas,125
+AVISO:archivos_huerfanos_en_disco,3

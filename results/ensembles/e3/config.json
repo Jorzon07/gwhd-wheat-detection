@@ -1,0 +1,22 @@
+{
+  "split_dir": "C:\\dev\\gwhd-project\\data\\splits\\location_seed42",
+  "phase3": {
+    "images_dir": "data/raw/gwhd_2021/images"
+  },
+  "ensemble": {
+    "members": {
+      "tuned": "C:\\dev\\gwhd-project\\outputs\\runs\\hv_s0_r0_c2_20261117_022523",
+      "yolo": "C:\\dev\\gwhd-project\\outputs\\runs\\yolov8n_800_20261116_171137",
+      "frcnn": "C:\\dev\\gwhd-project\\outputs\\runs\\baseline_v1_800_20261106_075151"
+    },
+    "method": "WBF",
+    "iou_thr": 0.65,
+    "iou_thr_grid": [
+      0.55,
+      0.65
+    ],
+    "skip_box_thr": 0.05,
+    "weights": null,
+    "conf_type": "avg"
+  }
+}

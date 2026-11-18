@@ -1,0 +1,88 @@
+paths:
+  raw_dir: data/raw
+  zip_path: data/raw/gwhd_2021.zip
+  extract_dir: data/raw/gwhd_2021
+  processed_dir: data/processed
+  outputs_dir: outputs
+  images_dir: null          # null = se detecta una carpeta llamada "images" dentro de extract_dir
+
+dataset:
+  name: GWHD_2021
+  zenodo_record: https://zenodo.org/records/5092309
+  zenodo_url: https://zenodo.org/records/5092309/files/gwhd_2021.zip?download=1
+  md5: 22b4b542c9ae7e056d7fcdeae9ecaed5
+  license: CC-BY-4.0
+  image_ext: .png
+  expected_image_size: [1024, 1024]   # declarado por Zenodo; la auditoría lo comprueba
+
+audit:
+  seed: 42
+  num_workers: 8
+  phash_hamming_threshold: 4   # distancia de Hamming (de 64 bits) para "casi duplicado"; a revisar visualmente
+  n_sample_images: 12
+  tiny_box_min_side_px: 2
+
+phase2:
+  seed: 42
+  group_key: location
+  targets: {train: 0.70, validation: 0.15, test: 0.15}
+  audit_run: null
+  min_box_side_px: 2
+  solver_time_limit_s: 60
+  tolerance_pp: 0.5
+  max_domain_share: 0.25         # ningún dominio supera esta fracción de val ni de test (null = sin límite)
+  min_countries: 4               # países mínimos en val y en test (0 = sin límite)
+  min_country_images: 30         # imágenes mínimas para contar un país como presente
+  max_unseen_country_share: 0.5  # tope de imágenes de val/test de países sin imágenes en train (null = sin límite)
+  output_dir: data/splits
+
+phase3:
+  seed: 0                              # semilla de los aumentos y del barajado
+  split_dir: data/splits/location_seed42
+  images_dir: data/raw/gwhd_2021/images
+  image_size: 1024                     # lado de entrada (las imágenes originales son de 1024)
+  aug:                                 # solo se aplican en train
+    hflip: 0.5
+    vflip: 0.5
+    rot90: 0.5
+    brightness: 0.2
+    contrast: 0.2
+    scale_crop_p: 0.5
+    crop_min_frac: 0.6
+    min_visibility: 0.5
+    min_box_side: 2.0
+  loader:
+    batch_size: 4
+    num_workers: 4
+    pin_memory: true
+    cache_items: 0                     # 0 = sin caché; cada imagen decodificada ocupa ~3 MB a 1024 px
+
+train:
+  seed: 0
+  arch: frcnn                      # frcnn | retinanet (más arquitecturas en la Fase 4)
+  variant: v1                      # v1 | v2 (se decide con la sonda de recursos)
+  pretrained: true                 # pesos COCO_V1 de torchvision; la cabeza final se reinicia (fondo + espiga)
+  trainable_backbone_layers: 3     # capas del backbone que se entrenan (0-5)
+  image_size: 800
+  batch_size: 4
+  accum_steps: 1                   # lote efectivo = batch_size * accum_steps
+  epochs: 12
+  optimizer: sgd
+  lr: 0.005
+  momentum: 0.9
+  weight_decay: 0.0001
+  warmup_steps: 300
+  min_lr_ratio: 0.01
+  grad_clip: 10.0
+  backbone_lr_mult: 0.1            # solo DETR/RT-DETR: lr del backbone = lr * este factor
+  amp: true
+  detections_per_img: 300
+  score_thresh_eval: 0.001
+  nms_thresh: 0.5
+  selection_metric: map50_95       # métrica de validación que elige el mejor modelo (fijada antes de entrenar)
+  patience: 4                      # épocas sin mejora antes de parar (0 = nunca)
+  eval_every: 1
+  eval_batch_size: 4
+  log_every: 20
+  train_images: null               # null = todas
+  runs_dir: outputs/runs

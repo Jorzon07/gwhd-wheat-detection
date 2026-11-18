@@ -1,0 +1,22 @@
+group,n_images,n_boxes,split
+Baima,220,10754,validation
+Brookstead,33,2886,train
+Ciudad Obregon,204,7086,test
+Gatton,349,21151,test
+Gembloux,30,1847,test
+Gréoux,1286,51291,train
+KSU,355,20239,train
+Kyoto,60,2668,train
+"Maricopa,AZ",248,4633,validation
+McAllister,41,4835,train
+Mons,58,1524,test
+NARO-Hokkaido,120,3085,test
+NARO-Tsukuba,994,27195,train
+NMBU,180,12556,validation
+Rothamsted,432,19210,train
+Saskatchewan,200,5985,test
+Toulouse,176,3634,validation
+Usask,747,49603,train
+VLB,584,15201,train
+VSC,160,8698,validation
+Wad Medani,30,1168,test

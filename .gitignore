@@ -1,0 +1,15 @@
+﻿# entorno y cachés
+.venv/
+__pycache__/
+*.pyc
+.pytest_cache/
+# datos y artefactos pesados (se regeneran con los scripts)
+data/*
+!data/splits/
+data/splits/**/annotations_clean.csv
+data/splits/gan_aug/
+outputs/
+*.pt
+*.pth
+*.npz
+yolov8n.pt

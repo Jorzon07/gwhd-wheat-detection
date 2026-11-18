@@ -1,0 +1,3 @@
+split,unseen_countries,n_images_unseen,pct_of_set
+validation,China:220; Norway:180,400,40.7
+test,Belgium:30; Canada:200; Mexico:204; Sudan:30,464,46.8

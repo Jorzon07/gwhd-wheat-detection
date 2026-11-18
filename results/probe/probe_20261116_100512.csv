@@ -1,0 +1,5 @@
+variant,image_size,batch_size,status,step_s,train_img_per_s,train_peak_alloc_gib,train_peak_reserved_gib,inference_ms
+v1,640,2,ok,0.17,11.77,1.49,1.65,29.3
+v1,640,4,ok,0.282,14.21,2.6,2.82,28.8
+v1,800,2,ok,0.224,8.91,2.07,2.27,38.5
+v1,800,4,ok,0.407,9.84,3.76,4.1,39.0
